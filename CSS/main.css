@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    background:#454545;
+    line-height: 1.5;
+}
+.side-bar{
+   float:left;
+   width: 20%;
+}
+.side-bar >*{
+    padding:10px 20px;
+}
+.main{
+    float: right;
+    width: 80%;
+}
+a{
+    text-decoration: none;
+}
+a,body{
+    color:#eee;
+}
+.header .logo{
+    line-height: 1;
+    border:2px #eee solid;
+    padding:10px 20px;
+    font-size: 30px;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+.side-bar .nav a,
+.side-bar .tag-list a{
+    display: block;
+    padding: 5px;
+    color: #888;
+    /*-webkit-transition:color 200ms;    
+    -o-transition:color 200ms;*/
+    transition:color 200ms;/*减慢颜色变化速度*/
+}
+.side-bar .nav a:hover,
+.side-bar .tag-list a:hover{
+    color:#eee;
+}
+
+.side-bar .nav a{
+    font-weight: 700;
+}
